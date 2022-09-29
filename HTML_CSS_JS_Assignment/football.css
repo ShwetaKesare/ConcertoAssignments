@@ -1,0 +1,32 @@
+#reddiv{
+    width: 1200px;
+    height: 600px;
+    border: solid 2px red;
+}
+#orangediv{
+    width: 1196px;
+    height: 596px;
+    border: solid 2px orange;
+}
+#yellowdiv{
+    width: 1192px;
+    height: 592px;
+    border: solid 2px yellow;
+}
+#greendiv{
+    width: 1188px;
+    height: 588px;
+    border: solid 2px green;
+}
+#bluediv{
+    width: 1184px;
+    height: 584px;
+    border: solid 2px blue;
+}
+
+#mycanvas{
+    width: 1180px;/*1195*/
+    height: 580px;/*595*/
+    border:solid 2px white;    
+    background:linear-gradient(rgb(109, 244, 109),rgb(50, 190, 50),rgb(27, 198, 27));
+    }
