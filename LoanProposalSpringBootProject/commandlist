@@ -1,0 +1,69 @@
+------------------------------------------------------------------------------------------------------
+add customer--post method
+
+http://localhost:8082/addCustomer
+
+{
+    "customerEmailId":"shweta.k@gmail.com",
+    "customerName":"Shweta",
+    "customerAddress":"mumbai",
+    "customerIdentity":"123",
+    "annualIncome":"100000",
+    "incomeTaxReturnAttached":true
+}
+----------------------------------------------------------------------------------------------------
+get customer--get method
+
+http://localhost:8082/findCustomer/shweta.k@gmail.com
+
+----------------------------------------------------------------------------------------------------
+add employee--post method
+
+http://localhost:8082/addEmployee
+
+{
+   	"employeeId":"emp1@gmail.com",
+	"employeeName":"employee1"
+}
+-------------------------------------------------------------------------------------------------
+get employee--get method
+
+http://localhost:8082/findEmployee/emp1@gmail.com
+---------------------------------------------------------------------------------------------------
+add collateral--post method
+
+http://localhost:8082/addCollateral
+
+{
+"collateral_Id":"1001",
+"collateral_Type":"insurance"
+}
+
+------------------------------------------------------------------------------------------------------
+apply for loan--post method
+
+http://localhost:8082/applyloan/shweta.k@gmail.com
+
+	{	
+		"loanType":"home_loan",
+		"loanAmount":"10000",
+		"interestRate":"0",
+		"loanperiod":"3"
+	}
+	
+------------------------------------------------------------------------------------------------------
+upload collateral against loan-----post method
+
+http://localhost:8082/uploadCollaterals/SB_LN_0001_shweta.k@gmail.com/?ids=1001
+
+-------------------------------------------------------------------------------------------------------
+find loan-----get method
+
+http://localhost:8082/findLoan/SB_LN_0001_shweta.k@gmail.com
+
+-------------------------------------------------------------------------------------------------------
+approve loan---post method
+
+http://localhost:8082/approveLoan/emp1@gmail.com
+
+
